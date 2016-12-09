@@ -1,3 +1,5 @@
 FROM openjdk
 
-RUN java -version
+COPY wing-la /wing-la
+RUN cd /wing-la && \
+    java -classpath . GogoStart -b
