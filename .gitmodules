@@ -1,0 +1,3 @@
+[submodule "wing-la"]
+	path = wing-la
+	url = git@github.com:hanasuke/wing-la.git
